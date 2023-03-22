@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 import { useGlobaleContext } from "./ContextApi";
 
 const Container = styled.div`
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: linear-gradient(
       rgba(255, 255, 255, 0.5),
@@ -22,11 +22,14 @@ const Container = styled.div`
   align-items: center;
 `;
 const Wrapper = styled.div`
-  min-width: "270px";
+  width: 400px;
 
   background-color: white;
   padding: 20px;
-  ${mobile({ width: "80%" })}
+
+  @media only screen and (max-width: 450px) {
+    width: 90%;
+  }
 `;
 const Title = styled.h1`
   font-size: 24px;
@@ -44,7 +47,7 @@ const Input = styled.input`
 `;
 
 const Button = styled.button`
-  ${"" /* width: 40%; */}
+  
   border: none;
   padding: 10px 20px;
   background-color: teal;
