@@ -16,10 +16,7 @@ const Container = styled.div`
 const Products = () => {
   const {data} = useGlobaleContext();
   
-<<<<<<< HEAD
-=======
   // console.log(data);
->>>>>>> d2429d258605749e3b92743f59bb7ad8ab345f71
   return (
     <Container>
         {
