@@ -1,5 +1,4 @@
 export const sliderItems = [
-<<<<<<< HEAD
          {
            id: 1,
            img: "https://i.ibb.co/DG69bQ4/2.png",
@@ -25,30 +24,6 @@ export const sliderItems = [
            bg: "fbf0f4",
          },
        ];
-=======
-    {
-      id: 1,
-      img: "https://previews.123rf.com/images/pressmaster/pressmaster1603/pressmaster160300669/53913268-young-joyful-consumer-looking-at-camera-with-smile.jpg",
-      title: "SUMMER SALE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "f5fafd",
-    },
-    {
-      id: 2,
-      img: "https://i.ibb.co/DG69bQ4/2.png",
-      title: "AUTUMN COLLECTION",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "fcf1ed",
-    },
-    {
-      id: 3,
-      img: "https://i.ibb.co/cXFnLLV/3.png",
-      title: "LOUNGEWEAR LOVE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "fbf0f4",
-    },
-  ];
->>>>>>> d2429d258605749e3b92743f59bb7ad8ab345f71
 
   export const categories = [
     {
